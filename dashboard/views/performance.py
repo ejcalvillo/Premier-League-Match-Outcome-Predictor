@@ -134,7 +134,7 @@ def show():
             acc_df = pd.DataFrame(accuracies)
             fig = px.bar(
                 acc_df, x="Outcome", y="Accuracy", text="Accuracy", color="Outcome",
-                color_discrete_map={"Draw": "#ff7f0e", "Away Win": "#d62728", "Home Win": "#2ca02c"},
+                color_discrete_map={"Draw": "#eda100", "Away Win": "#e34948", "Home Win": "#008300"},
             )
             fig.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
             fig.update_layout(yaxis_range=[0, 110], yaxis_title="Accuracy (%)", showlegend=False, height=400)

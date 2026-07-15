@@ -212,19 +212,20 @@ def calculate_predicted_score(prediction: dict, home_form: dict, away_form: dict
 
 def show():
     """Display the match predictor page"""
-    
+    st.markdown('<div class="sub-header">Match Predictor</div>', unsafe_allow_html=True)
+
     # Initialize data loader
     loader = DataLoader()
-    
+
     # Get team list
     teams = loader.load_teams_data()
-    
+
     if not teams:
         st.error("Unable to load team data.")
         return
-    
+
     # Only allow prediction on unseen matches
-    st.markdown("### Predict Upcoming Matches (2025-26 Season)")
+    st.markdown("#### Predict Upcoming Matches (2025-26 Season)")
     
     unseen_matches = loader.get_unseen_matches(limit=10)
     if unseen_matches:
@@ -311,11 +312,11 @@ def show():
                         # Prediction result
                         outcome_text = prediction['prediction']
                         if outcome_text == "Home Win":
-                            outcome_color = "#2ca02c"
+                            outcome_color = "#008300"
                         elif outcome_text == "Away Win":
-                            outcome_color = "#d62728"
+                            outcome_color = "#e34948"
                         else:
-                            outcome_color = "#ff7f0e"
+                            outcome_color = "#eda100"
                         
                         st.markdown(f"<h2 style='text-align: center; color: {outcome_color};'>{outcome_text}</h2>", unsafe_allow_html=True)
                         st.markdown(f"<p style='text-align: center; font-size: 1.2em;'>Confidence: <strong>{prediction['confidence']}%</strong></p>", unsafe_allow_html=True)
@@ -358,7 +359,7 @@ def show():
                         prediction['draw_probability'],
                         prediction['away_win_probability']
                     ]
-                    colors = ['#2ca02c', '#ff7f0e', '#d62728']
+                    colors = ['#008300', '#eda100', '#e34948']
                     
                     fig.add_trace(go.Bar(
                         x=outcomes,
@@ -498,8 +499,8 @@ def show():
                             theta=categories,
                             fill='toself',
                             name=home_team,
-                            line_color='#2ca02c',
-                            fillcolor='rgba(44, 160, 44, 0.3)'
+                            line_color='#008300',
+                            fillcolor='rgba(0, 131, 0, 0.3)'
                         ))
                         
                         fig_radar.add_trace(go.Scatterpolar(
@@ -507,8 +508,8 @@ def show():
                             theta=categories,
                             fill='toself',
                             name=away_team,
-                            line_color='#d62728',
-                            fillcolor='rgba(214, 39, 40, 0.3)'
+                            line_color='#e34948',
+                            fillcolor='rgba(227, 73, 72, 0.3)'
                         ))
                         
                         fig_radar.update_layout(
@@ -558,7 +559,7 @@ def show():
                             name=home_team,
                             x=categories,
                             y=[home_wins, home_draws, home_losses],
-                            marker_color='#2ca02c',
+                            marker_color='#008300',
                             text=[home_wins, home_draws, home_losses],
                             textposition='auto',
                             textfont=dict(size=14, color='white', family='Arial Black'),
@@ -569,7 +570,7 @@ def show():
                             name=away_team,
                             x=categories,
                             y=[away_wins, away_draws, away_losses],
-                            marker_color='#d62728',
+                            marker_color='#e34948',
                             text=[away_wins, away_draws, away_losses],
                             textposition='auto',
                             textfont=dict(size=14, color='white', family='Arial Black'),

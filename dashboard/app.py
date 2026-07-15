@@ -1,5 +1,5 @@
 """
-AI Sports Analytics Dashboard
+Premier League Match Outcome Predictor
 Main Streamlit Application
 """
 
@@ -13,7 +13,7 @@ sys.path.insert(0, str(parent_dir))
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Sports Analytics",
+    page_title="Premier League Match Outcome Predictor",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -22,51 +22,73 @@ st.set_page_config(
 st.markdown("""
     <style>
     .main-header {
-        font-size: 2.5rem;
-        font-weight: bold;
+        font-size: 2.25rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
         color: #1f77b4;
         text-align: center;
-        padding: 1rem 0;
+        padding: 0.75rem 0 0.25rem 0;
+    }
+    .app-subtitle {
+        text-align: center;
+        color: #6b7280;
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
     }
     .sub-header {
-        font-size: 1.5rem;
-        color: #555;
-        margin-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #2d2d2d;
+        margin-bottom: 0.75rem;
     }
     .metric-card {
-        background-color: #f0f2f6;
+        background-color: #f8f9fb;
+        border: 1px solid #e5e7eb;
         padding: 1rem;
-        border-radius: 0.5rem;
+        border-radius: 0.6rem;
         margin: 0.5rem 0;
     }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 2rem;
+    div[data-testid="stMetric"] {
+        background-color: #f8f9fb;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.6rem;
+        padding: 0.9rem 1rem;
     }
-    .stTabs [data-baseweb="tab"] {
-        height: 3rem;
-        padding: 0 2rem;
+    section[data-testid="stSidebar"] {
+        border-right: 1px solid #e5e7eb;
+    }
+    .footer-note {
+        text-align: center;
+        color: #9ca3af;
+        font-size: 0.85rem;
+        padding: 0.75rem 0 0.25rem 0;
     }
     </style>
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown('<div class="main-header">AI Sports Analytics Dashboard</div>', unsafe_allow_html=True)
-st.markdown("---")
+st.markdown('<div class="main-header">Premier League Match Outcome Predictor</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="app-subtitle">Random Forest predictions from historical Premier League match data</div>',
+    unsafe_allow_html=True
+)
 
 # Sidebar navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio(
-    "Select Page",
-    ["Match Predictor", "Model Performance"]
+    "Select a page",
+    ["Match Predictor", "Model Performance"],
+    label_visibility="collapsed",
 )
+st.sidebar.caption("Match Predictor forecasts upcoming fixtures. Model Performance reports held-out accuracy.")
 
 # Import page modules
 try:
     if page == "Match Predictor":
-        from pages import predictor
+        from views import predictor
         predictor.show()
     elif page == "Model Performance":
-        from pages import performance
+        from views import performance
         performance.show()
 except Exception as e:
     st.error(f"Error loading page: {str(e)}")
@@ -75,8 +97,6 @@ except Exception as e:
 # Footer
 st.markdown("---")
 st.markdown(
-    "<div style='text-align: center; color: #888; padding: 1rem;'>"
-    "AI Sports Analytics | Premier League Prediction System | v1.0"
-    "</div>",
+    '<div class="footer-note">Premier League Match Outcome Predictor</div>',
     unsafe_allow_html=True
 )
