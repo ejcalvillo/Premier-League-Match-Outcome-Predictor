@@ -1,0 +1,323 @@
+date,home_team,away_team,actual,predicted
+2024-12-26,Newcastle,Aston Villa,2,2
+2024-12-27,Brighton,Brentford,0,2
+2024-12-27,Arsenal,Ipswich,2,2
+2024-12-29,West Ham,Liverpool,1,1
+2024-12-29,Leicester,Man City,1,1
+2024-12-29,Crystal Palace,Southampton,2,2
+2024-12-29,Everton,Nott'm Forest,1,2
+2024-12-29,Fulham,Bournemouth,0,1
+2024-12-29,Tottenham,Wolves,0,2
+2024-12-30,Ipswich,Chelsea,2,1
+2024-12-30,Man United,Newcastle,1,1
+2024-12-30,Aston Villa,Brighton,0,2
+2025-01-01,Brentford,Arsenal,1,1
+2025-01-04,Aston Villa,Leicester,2,2
+2025-01-04,Brighton,Arsenal,0,1
+2025-01-04,Bournemouth,Everton,2,2
+2025-01-04,Crystal Palace,Chelsea,0,1
+2025-01-04,Southampton,Brentford,1,1
+2025-01-04,Man City,West Ham,2,2
+2025-01-04,Tottenham,Newcastle,1,1
+2025-01-05,Fulham,Ipswich,0,2
+2025-01-05,Liverpool,Man United,0,2
+2025-01-06,Wolves,Nott'm Forest,1,1
+2025-01-14,Brentford,Man City,0,1
+2025-01-14,Chelsea,Bournemouth,0,2
+2025-01-14,West Ham,Fulham,2,1
+2025-01-14,Nott'm Forest,Liverpool,0,1
+2025-01-15,Arsenal,Tottenham,2,2
+2025-01-15,Newcastle,Wolves,2,2
+2025-01-15,Everton,Aston Villa,1,1
+2025-01-15,Leicester,Crystal Palace,1,1
+2025-01-16,Ipswich,Brighton,1,1
+2025-01-16,Man United,Southampton,2,2
+2025-01-18,Newcastle,Bournemouth,1,2
+2025-01-18,Brentford,Liverpool,1,1
+2025-01-18,Leicester,Fulham,1,1
+2025-01-18,West Ham,Crystal Palace,1,1
+2025-01-18,Arsenal,Aston Villa,0,2
+2025-01-19,Man United,Brighton,1,2
+2025-01-19,Nott'm Forest,Southampton,2,2
+2025-01-19,Everton,Tottenham,2,1
+2025-01-19,Ipswich,Man City,1,1
+2025-01-20,Chelsea,Wolves,2,2
+2025-01-25,Liverpool,Ipswich,2,2
+2025-01-25,Bournemouth,Nott'm Forest,2,2
+2025-01-25,Brighton,Everton,1,2
+2025-01-25,Man City,Chelsea,2,2
+2025-01-25,Southampton,Newcastle,1,1
+2025-01-25,Wolves,Arsenal,1,1
+2025-01-26,Crystal Palace,Brentford,1,2
+2025-01-26,Tottenham,Leicester,1,2
+2025-01-26,Aston Villa,West Ham,0,2
+2025-01-26,Fulham,Man United,1,2
+2025-02-01,Wolves,Aston Villa,2,1
+2025-02-01,Newcastle,Fulham,1,2
+2025-02-01,Ipswich,Southampton,1,2
+2025-02-01,Bournemouth,Liverpool,1,1
+2025-02-01,Nott'm Forest,Brighton,2,2
+2025-02-01,Everton,Leicester,2,2
+2025-02-02,Brentford,Tottenham,1,2
+2025-02-02,Man United,Crystal Palace,1,2
+2025-02-02,Arsenal,Man City,2,2
+2025-02-03,Chelsea,West Ham,2,2
+2025-02-12,Everton,Liverpool,0,1
+2025-02-14,Brighton,Chelsea,2,2
+2025-02-15,West Ham,Brentford,1,1
+2025-02-15,Crystal Palace,Everton,1,2
+2025-02-15,Man City,Newcastle,2,2
+2025-02-15,Southampton,Bournemouth,1,1
+2025-02-15,Aston Villa,Ipswich,0,2
+2025-02-15,Fulham,Nott'm Forest,2,2
+2025-02-15,Leicester,Arsenal,1,1
+2025-02-16,Liverpool,Wolves,2,2
+2025-02-16,Tottenham,Man United,2,1
+2025-02-19,Aston Villa,Liverpool,0,1
+2025-02-21,Leicester,Brentford,1,1
+2025-02-22,Aston Villa,Chelsea,2,2
+2025-02-22,Southampton,Brighton,1,1
+2025-02-22,Fulham,Crystal Palace,1,2
+2025-02-22,Ipswich,Tottenham,1,1
+2025-02-22,Arsenal,West Ham,1,2
+2025-02-22,Everton,Man United,0,2
+2025-02-22,Bournemouth,Wolves,1,2
+2025-02-23,Newcastle,Nott'm Forest,2,2
+2025-02-23,Man City,Liverpool,1,1
+2025-02-25,Brighton,Bournemouth,2,2
+2025-02-25,Crystal Palace,Aston Villa,2,2
+2025-02-25,Wolves,Fulham,1,1
+2025-02-25,Chelsea,Southampton,2,2
+2025-02-26,Man United,Ipswich,2,2
+2025-02-26,Tottenham,Man City,1,1
+2025-02-26,Liverpool,Newcastle,2,2
+2025-02-26,Nott'm Forest,Arsenal,0,1
+2025-02-26,Brentford,Everton,0,2
+2025-02-27,West Ham,Leicester,2,2
+2025-03-08,Nott'm Forest,Man City,2,1
+2025-03-08,Brighton,Fulham,2,2
+2025-03-08,Crystal Palace,Ipswich,2,2
+2025-03-08,Liverpool,Southampton,2,2
+2025-03-08,Brentford,Aston Villa,1,2
+2025-03-08,Wolves,Everton,0,2
+2025-03-09,Man United,Arsenal,0,1
+2025-03-09,Tottenham,Bournemouth,0,1
+2025-03-09,Chelsea,Leicester,2,2
+2025-03-10,West Ham,Newcastle,1,1
+2025-03-15,Everton,West Ham,0,2
+2025-03-15,Ipswich,Nott'm Forest,1,1
+2025-03-15,Man City,Brighton,0,2
+2025-03-15,Southampton,Wolves,1,1
+2025-03-15,Bournemouth,Brentford,1,2
+2025-03-16,Arsenal,Chelsea,2,2
+2025-03-16,Fulham,Tottenham,2,2
+2025-03-16,Leicester,Man United,1,1
+2025-04-01,Wolves,West Ham,2,2
+2025-04-01,Arsenal,Fulham,2,2
+2025-04-01,Nott'm Forest,Man United,2,2
+2025-04-02,Southampton,Crystal Palace,0,1
+2025-04-02,Liverpool,Everton,2,2
+2025-04-02,Newcastle,Brentford,2,2
+2025-04-02,Brighton,Aston Villa,1,2
+2025-04-02,Bournemouth,Ipswich,1,2
+2025-04-02,Man City,Leicester,2,2
+2025-04-03,Chelsea,Tottenham,2,2
+2025-04-05,Everton,Arsenal,0,1
+2025-04-05,Crystal Palace,Brighton,2,2
+2025-04-05,Ipswich,Wolves,1,1
+2025-04-05,West Ham,Bournemouth,0,1
+2025-04-05,Aston Villa,Nott'm Forest,2,2
+2025-04-06,Man United,Man City,0,1
+2025-04-06,Tottenham,Southampton,2,2
+2025-04-06,Brentford,Chelsea,0,1
+2025-04-06,Fulham,Liverpool,2,1
+2025-04-07,Leicester,Newcastle,1,1
+2025-04-12,Arsenal,Brentford,0,2
+2025-04-12,Brighton,Leicester,0,2
+2025-04-12,Man City,Crystal Palace,2,2
+2025-04-12,Southampton,Aston Villa,1,1
+2025-04-12,Nott'm Forest,Everton,1,2
+2025-04-13,Wolves,Tottenham,2,2
+2025-04-13,Chelsea,Ipswich,0,2
+2025-04-13,Liverpool,West Ham,2,2
+2025-04-13,Newcastle,Man United,2,2
+2025-04-14,Bournemouth,Fulham,2,2
+2025-04-16,Newcastle,Crystal Palace,2,2
+2025-04-19,West Ham,Southampton,0,2
+2025-04-19,Everton,Man City,1,1
+2025-04-19,Aston Villa,Newcastle,2,2
+2025-04-19,Crystal Palace,Bournemouth,0,2
+2025-04-19,Brentford,Brighton,2,2
+2025-04-20,Fulham,Chelsea,1,1
+2025-04-20,Ipswich,Arsenal,1,1
+2025-04-20,Man United,Wolves,1,2
+2025-04-20,Leicester,Liverpool,1,1
+2025-04-21,Tottenham,Nott'm Forest,1,2
+2025-04-22,Man City,Aston Villa,2,2
+2025-04-23,Arsenal,Crystal Palace,0,2
+2025-04-26,Wolves,Leicester,2,2
+2025-04-26,Southampton,Fulham,1,1
+2025-04-26,Chelsea,Everton,2,2
+2025-04-26,Newcastle,Ipswich,2,2
+2025-04-26,Brighton,West Ham,2,2
+2025-04-27,Bournemouth,Man United,0,2
+2025-04-27,Liverpool,Tottenham,2,2
+2025-05-01,Nott'm Forest,Brentford,1,2
+2025-05-02,Man City,Wolves,2,2
+2025-05-03,Leicester,Southampton,2,2
+2025-05-03,Arsenal,Bournemouth,1,2
+2025-05-03,Aston Villa,Fulham,2,2
+2025-05-03,Everton,Ipswich,0,2
+2025-05-04,Chelsea,Liverpool,2,2
+2025-05-04,Brighton,Newcastle,0,2
+2025-05-04,Brentford,Man United,2,2
+2025-05-04,West Ham,Tottenham,0,2
+2025-05-05,Crystal Palace,Nott'm Forest,0,2
+2025-05-10,Fulham,Everton,1,2
+2025-05-10,Ipswich,Brentford,1,1
+2025-05-10,Southampton,Man City,0,1
+2025-05-10,Wolves,Brighton,1,1
+2025-05-10,Bournemouth,Aston Villa,1,2
+2025-05-11,Newcastle,Chelsea,2,2
+2025-05-11,Liverpool,Arsenal,0,0
+2025-05-11,Nott'm Forest,Leicester,0,2
+2025-05-11,Tottenham,Crystal Palace,1,2
+2025-05-11,Man United,West Ham,1,2
+2025-05-16,Aston Villa,Tottenham,2,2
+2025-05-16,Chelsea,Man United,2,2
+2025-05-18,Everton,Southampton,2,2
+2025-05-18,West Ham,Nott'm Forest,1,1
+2025-05-18,Brentford,Fulham,1,2
+2025-05-18,Leicester,Ipswich,2,2
+2025-05-18,Arsenal,Newcastle,2,2
+2025-05-19,Brighton,Liverpool,2,2
+2025-05-20,Man City,Bournemouth,2,2
+2025-05-20,Crystal Palace,Wolves,2,2
+2025-05-25,Southampton,Arsenal,1,1
+2025-05-25,Wolves,Brentford,0,1
+2025-05-25,Newcastle,Everton,1,2
+2025-05-25,Tottenham,Brighton,1,1
+2025-05-25,Man United,Aston Villa,2,1
+2025-05-25,Ipswich,West Ham,1,1
+2025-05-25,Nott'm Forest,Chelsea,1,1
+2025-05-25,Bournemouth,Leicester,2,2
+2025-05-25,Liverpool,Crystal Palace,0,2
+2025-05-25,Fulham,Man City,1,1
+2025-08-15,Liverpool,Bournemouth,2,2
+2025-08-16,Aston Villa,Newcastle,0,2
+2025-08-16,Brighton,Fulham,0,2
+2025-08-16,Wolves,Man City,1,1
+2025-08-16,Tottenham,Burnley,2,2
+2025-08-17,Chelsea,Crystal Palace,0,2
+2025-08-17,Nott'm Forest,Brentford,2,2
+2025-08-17,Man United,Arsenal,1,1
+2025-08-18,Leeds,Everton,2,2
+2025-08-22,West Ham,Chelsea,1,1
+2025-08-23,Man City,Tottenham,1,2
+2025-08-23,Brentford,Aston Villa,2,2
+2025-08-23,Arsenal,Leeds,2,2
+2025-08-23,Bournemouth,Wolves,2,2
+2025-08-24,Everton,Brighton,2,1
+2025-08-24,Fulham,Man United,0,1
+2025-08-24,Crystal Palace,Nott'm Forest,0,2
+2025-08-25,Newcastle,Liverpool,1,1
+2025-08-30,Chelsea,Fulham,2,2
+2025-08-30,Man United,Burnley,2,2
+2025-08-30,Sunderland,Brentford,2,1
+2025-08-30,Tottenham,Bournemouth,1,2
+2025-08-30,Wolves,Everton,1,2
+2025-08-30,Leeds,Newcastle,0,1
+2025-08-31,Brighton,Man City,2,1
+2025-08-31,Nott'm Forest,West Ham,1,2
+2025-08-31,Liverpool,Arsenal,2,2
+2025-08-31,Aston Villa,Crystal Palace,1,2
+2025-09-13,Brentford,Chelsea,0,1
+2025-09-13,West Ham,Tottenham,1,1
+2025-09-13,Newcastle,Wolves,2,2
+2025-09-13,Fulham,Leeds,2,2
+2025-09-13,Arsenal,Nott'm Forest,2,2
+2025-09-13,Crystal Palace,Sunderland,0,2
+2025-09-13,Bournemouth,Brighton,2,2
+2025-09-13,Everton,Aston Villa,0,2
+2025-09-14,Burnley,Liverpool,1,1
+2025-09-14,Man City,Man United,2,2
+2025-09-20,Man United,Chelsea,2,2
+2025-09-20,Brighton,Tottenham,0,2
+2025-09-20,Burnley,Nott'm Forest,0,1
+2025-09-20,West Ham,Crystal Palace,1,2
+2025-09-20,Wolves,Leeds,1,1
+2025-09-20,Liverpool,Everton,2,2
+2025-09-20,Fulham,Brentford,2,2
+2025-09-21,Bournemouth,Newcastle,0,2
+2025-09-21,Sunderland,Aston Villa,0,1
+2025-09-21,Arsenal,Man City,0,2
+2025-09-27,Nott'm Forest,Sunderland,1,2
+2025-09-27,Chelsea,Brighton,1,2
+2025-09-27,Crystal Palace,Liverpool,2,1
+2025-09-27,Leeds,Bournemouth,0,1
+2025-09-27,Man City,Burnley,2,2
+2025-09-27,Brentford,Man United,2,1
+2025-09-27,Tottenham,Wolves,0,2
+2025-09-28,Aston Villa,Fulham,2,2
+2025-09-28,Newcastle,Arsenal,1,1
+2025-09-29,Everton,West Ham,0,2
+2025-10-03,Bournemouth,Fulham,2,2
+2025-10-04,Arsenal,West Ham,2,2
+2025-10-04,Man United,Sunderland,2,2
+2025-10-04,Leeds,Tottenham,1,1
+2025-10-04,Chelsea,Liverpool,2,2
+2025-10-05,Brentford,Man City,1,1
+2025-10-05,Wolves,Brighton,0,1
+2025-10-05,Newcastle,Nott'm Forest,2,2
+2025-10-05,Everton,Crystal Palace,2,2
+2025-10-05,Aston Villa,Burnley,2,2
+2025-10-18,Nott'm Forest,Chelsea,1,1
+2025-10-18,Brighton,Newcastle,2,2
+2025-10-18,Burnley,Leeds,2,1
+2025-10-18,Crystal Palace,Bournemouth,0,2
+2025-10-18,Man City,Everton,2,2
+2025-10-18,Sunderland,Wolves,2,2
+2025-10-18,Fulham,Arsenal,1,1
+2025-10-19,Tottenham,Aston Villa,1,2
+2025-10-19,Liverpool,Man United,1,2
+2025-10-20,West Ham,Brentford,1,2
+2025-10-24,Leeds,West Ham,2,2
+2025-10-25,Chelsea,Sunderland,1,2
+2025-10-25,Newcastle,Fulham,2,2
+2025-10-25,Man United,Brighton,2,2
+2025-10-25,Brentford,Liverpool,2,1
+2025-10-26,Arsenal,Crystal Palace,2,2
+2025-10-26,Aston Villa,Man City,2,1
+2025-10-26,Bournemouth,Nott'm Forest,2,2
+2025-10-26,Wolves,Burnley,1,2
+2025-10-26,Everton,Tottenham,1,2
+2025-11-01,Burnley,Arsenal,1,1
+2025-11-01,Crystal Palace,Brentford,2,2
+2025-11-01,Liverpool,Aston Villa,2,2
+2025-11-01,Brighton,Leeds,2,2
+2025-11-01,Fulham,Wolves,2,2
+2025-11-01,Nott'm Forest,Man United,0,1
+2025-11-01,Tottenham,Chelsea,1,1
+2025-11-02,West Ham,Newcastle,2,1
+2025-11-02,Man City,Bournemouth,2,2
+2025-11-03,Sunderland,Everton,0,2
+2025-11-08,Everton,Fulham,2,2
+2025-11-08,West Ham,Burnley,2,2
+2025-11-08,Tottenham,Man United,0,1
+2025-11-08,Sunderland,Arsenal,0,1
+2025-11-08,Chelsea,Wolves,2,2
+2025-11-09,Crystal Palace,Brighton,0,2
+2025-11-09,Nott'm Forest,Leeds,2,2
+2025-11-09,Man City,Liverpool,2,2
+2025-11-09,Brentford,Newcastle,2,1
+2025-11-09,Aston Villa,Bournemouth,2,2
+2025-11-22,Liverpool,Nott'm Forest,1,2
+2025-11-22,Fulham,Sunderland,2,2
+2025-11-22,Wolves,Crystal Palace,1,1
+2025-11-22,Bournemouth,West Ham,0,2
+2025-11-22,Burnley,Chelsea,1,1
+2025-11-22,Brighton,Brentford,2,2
+2025-11-22,Newcastle,Man City,2,1
+2025-11-23,Arsenal,Tottenham,2,2
+2025-11-23,Leeds,Aston Villa,1,1
+2025-11-24,Man United,Everton,1,2
