@@ -52,7 +52,7 @@ cd dashboard
 streamlit run app.py
 ```
 
-Opens at http://localhost:8501. Alternatively, run `./start.sh` from within `dashboard/`, which creates a virtual environment and installs dependencies automatically.
+Opens at http://localhost:8501.
 
 ### Dashboard pages
 
