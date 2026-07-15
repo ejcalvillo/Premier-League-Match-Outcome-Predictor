@@ -2,7 +2,7 @@
 
 A machine learning project that predicts Premier League match outcomes (home win / draw / away win) from historical match data, with a Streamlit dashboard for interactive predictions and model evaluation.
 
-**Live Demo:** [Add link here after deployment]
+[Live Demo →](https://premier-league-match-outcome-predictor.streamlit.app/)
 
 ## Team project
 
